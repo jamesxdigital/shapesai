@@ -12,7 +12,7 @@ import Image from "next/image";
 import { LoadingPage } from "~/components/loading";
 
 dayjs.extend(relativeTime);
-
+//test
 const CreatePostWizard = () => {
   const { user } = useUser();
   if (!user) return null;
