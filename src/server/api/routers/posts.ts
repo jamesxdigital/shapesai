@@ -14,7 +14,7 @@ import {
 const filterUserForClient = (user: User) => {
   return {
     id: user.id,
-    name: user.firstName,
+    name: user.username,
     profileImageUrl: user.profileImageUrl,
   };
 };
