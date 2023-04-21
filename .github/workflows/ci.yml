@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - names: Checkout
       - uses: actions/checkout@v2
 
       - name: Install Dependencies
         run: npm install
 
-      - name: TypeScript
+      - name: Typecheck
         run: npm run typecheck
 
       - name: Lint
